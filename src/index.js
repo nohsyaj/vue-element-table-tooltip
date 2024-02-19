@@ -1,7 +1,7 @@
 import {
   dark as darkTooltip,
   light as lightTooltip,
-} from '@/directives/table-overflow-tooltip/index.js';
+} from './directives/table-overflow-tooltip/index.js';
 
 const install = function (Vue, options) {
   if (options && options.theme === 'light') {
