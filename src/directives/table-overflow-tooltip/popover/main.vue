@@ -52,6 +52,7 @@ export default {
       const popover = this.$refs.popover.$refs.popper
       popover.style.padding = "0 12px"
       if (this.effect === "dark") {
+        popover.classList.remove("el-popper")
         popover.classList.add("is-dark")
         popover.classList.add("el-tooltip__popper")
         popover.style.borderWidth = 0
