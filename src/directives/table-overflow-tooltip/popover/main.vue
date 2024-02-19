@@ -51,6 +51,7 @@ export default {
     onShow(){
       const popover = this.$refs.popover.$refs.popper
       popover.style.padding = "0 12px"
+      popover.style.minWidth = 0
       if (this.effect === "dark") {
         popover.classList.remove("el-popper")
         popover.classList.add("is-dark")
