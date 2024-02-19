@@ -1,6 +1,6 @@
 {
   "name": "vue-element-table-tooltip",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "nohsyaj",
   "description": "A vue directive for element-ui to fix the problem which overflow table content cannot be copied.",
   "keywords": [
